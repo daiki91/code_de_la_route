@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagination</title>
+    <link rel="stylesheet" href="pagination.css">
+</head>
+<body> 
+    <div class="help">  
+           <h1 >choisi le formulaire a remplir  avant de demarer le test</h1>
+        <select name="" id="select-dossier" default="1">
+            <option value="1">B01</option>
+            <option value="2">B02</option>
+            <option value="3">B03</option>
+            <option value="4">B04</option>
+            <option value="5">B05</option>
+            <option value="6">B06</option>
+            <option value="7">B07</option>
+            <option value="8">B08</option>
+            <option value="9">B09</option>
+            <option value="10">B10</option>
+            <option value="11">B11</option>
+            <option value="12">B12</option>
+        </select>      
+</div>
+            <div id="timer"></div>
+            <div class="moko">
+                    <table class="daiki">
+                            <thead>
+                                <tr>
+                                    <div class="image"><th style="background-color: rgb(86, 86, 86); height: 500px; width: 1000px;"><img name="slide" id="img" src="B01/B1 couv.jpg" alt=""></th></div>
+                                </tr>
+                            </thead>
+                            <tbody id="valeurs">
+
+                            </tbody>
+                    </table>
+                    <div>
+                        <button class="aomine" >PREVIOUS</button>
+                        <span id="pageInfo"></span>
+                        <button class="aomine">NEXT</button>
+                        <button class="demarrer">Demarer </button>
+                    </div>
+            </div>
+    </div>
+  
+
+
+    <div  id="coche">
+        <div style="    transform: translate(1009px, -300px);" >
+            <div  class="check">
+                <input type="checkbox" id="cb1">
+
+                <label for="">A</label>
+            </div>            
+            <div  class="check">
+                <input type="checkbox" id="cb2">
+
+                <label for="">B</label>
+            </div>            
+            <div  class="check">
+                <input type="checkbox" id="cb3">
+
+                <label for="">C</label>
+            </div>            
+            <div  class="check">
+                <input type="checkbox" id="cb4">
+
+                <label for="">D</label>
+            </div>            
+        </div>
+                             
+     </div>
+    <script src="pagination.js"></script>
+</body>
+</html>

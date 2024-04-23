@@ -1,0 +1,35 @@
+.aomine, .neub{
+    display: none;
+}
+
+.feignal{
+    display : inline-block;
+}
+
+.demarrer span{
+    display : none;
+}
+
+.demarrer:hover span{
+    display : block;
+}
+.demarrer:hover span:hover{
+    background-color: blue;
+}
+
+img{
+    height: 75%;
+    width: 55%;
+}
+
+
+  #timer {
+    border: 2 , gray;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 4em;
+  }
+
+  .help:has(#select-dossier.neub){
+    display: none;
+  }
